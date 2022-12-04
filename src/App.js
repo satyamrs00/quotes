@@ -19,7 +19,7 @@ class App extends Component {
 	  <div className="App" style={{backgroundColor: this.state.theme}}>
 		<Card theme={this.state.theme} onParentThemeChange={this.onThemeChange}/>
 		<div id='by'>
-			by<strong><a href='https://github.com/satyamrs00'>Satyam</a></strong>
+			<span><a href='https://github.com/satyamrs00'>satyam</a></span>
 		</div>
 	  </div>
 	);
