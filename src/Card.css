@@ -1,0 +1,58 @@
+#quote-box {
+    background-color: #fff;
+    border-radius: 0.2rem;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    #quote-box {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #quote-box {
+        max-width: 40%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    #quote-box {
+        max-width: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #quote-box {
+        max-width: 90%;
+        margin: 5% auto;
+    }
+}
+#text {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+#author {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: right;
+    font-style: italic;
+}
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+button , a {
+    /* border: 0.1rem solid #000; */
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    align-self: stretch;
+}
+span {
+    margin: 0.2rem 0%;
+}
